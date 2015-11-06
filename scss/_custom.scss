@@ -1,0 +1,125 @@
+/* My Custom .scss SASS stylesheet */
+
+body{
+    background: $body-bg;
+}
+
+.header{
+    border-bottom: 3px #fbb03b solid;
+}
+
+//begin nav styling
+
+.top-bar{
+    background: $topbar-bg-color;
+}
+
+.dropdown{
+    background: $topbar-dropdown-bg;
+}
+
+.left-off-canvas-menu, .tab-bar{
+    background-color: $topbar-bg-color;
+}
+
+//end nav styling
+
+//featured styles
+.showcase{
+    padding: 40px 0;
+    height: 400px;
+    margin-bottom: 20px;
+    background: $body-bg url("../images/salad.jpg") no-repeat center;
+    border-bottom: 3px #fbb03b solid;
+}
+
+.showcase h1{
+    font-size: 50px;
+    color: #FFF;
+}
+
+.showcase p{
+    font-size: 20px;
+    color: #000;
+    width: 98%;
+}
+
+// end featured styles
+
+.large-6-columns{
+    width:75%;
+    margin: auto;
+} 
+
+.p-right{
+    float: right;
+}
+//social icons styles
+.social{
+    float: right;
+    padding-top: 25px;
+}
+
+.social img{
+    width: 40px;
+}
+
+//end social styles
+
+
+.boxes{
+    text-align: center;
+}
+
+.boxes i {
+    text-align: center;
+    display: block;
+}
+
+.boxes a{
+    background: $topbar-bg-color;
+}
+
+//begin footer stuff
+footer{
+    background: #800000;
+    color:#fff;
+    text-align: center;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.five-up{
+    background: #800000;
+    width: 100%; 
+}
+
+.five-up a:hover{
+    background-color: #800000;
+}
+
+//end footer stuff
+
+//services page stuff
+.side-menu h4{
+    background: $topbar-bg-color;
+    padding: 10px;
+    color: #fff;
+}
+
+.accordion .accordion-navigation > a:hover{
+    background: #333;
+    color:#fff;
+}
+
+.accordion .accordion-navigation > a, .accordion li > a{
+    background: $accordion-navigation-bg-color;
+    color: #fff;
+}
+
+//end services page stuff
+
+//contact styles
+.pushdown{
+    margin-top: 10px;
+}
